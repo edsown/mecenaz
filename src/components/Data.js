@@ -9,35 +9,35 @@ const artistsData = [
   },
   {
     id: 2,
-    title: "Fran Barros",
+    title: "Fran Silva",
     location: "Brasília",
     img: "./images/p2.jpg",
     description:
-      "Fran é uma artista situado em Planaltina, e sua especialidade é o jogo de sombras e luz em suas obras",
+      "Fran é uma artista situado em Brasília, e ama pintar paisagens",
   },
   {
-    id: 2,
-    title: "Fran Barros",
+    id: 3,
+    title: "Ed Sousa",
     location: "Brasília",
     img: "./images/p3.jpg",
     description:
-      "Fran é uma artista situado em Planaltina, e sua especialidade é o jogo de sombras e luz em suas obras",
+      "Fran é uma artista situado em Sobradinho, e o que chama atenção em suas obras é o realismo",
   },
   {
-    id: 2,
-    title: "Fran Barros",
+    id: 4,
+    title: "Dani Tomiko",
     location: "Brasília",
     img: "./images/p4.jpg",
     description:
-      "Fran é uma artista situado em Planaltina, e sua especialidade é o jogo de sombras e luz em suas obras",
+      "Dani é uma grafiteira que nasceu no Paranoá, e gosta de grafitar as paradas de ônibus do DF",
   },
   {
-    id: 2,
-    title: "Fran Barros",
+    id: 5,
+    title: "Kleber Jorge",
     location: "Brasília",
     img: "./images/p5.jpg",
     description:
-      "Fran é uma artista situado em Planaltina, e sua especialidade é o jogo de sombras e luz em suas obras",
+      "Kleber Jorge faz esculturas de barro, que dão uma sensação de ambiente rústico para sua casa",
   },
 ];
 

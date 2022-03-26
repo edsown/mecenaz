@@ -6,6 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../public/images/cimento.jpg);
+
+  background-size: auto;
+  background-color: black;
 }
 
 code {
@@ -14,13 +19,16 @@ code {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
 }
 h4 {
   font-size: 2rem;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 .NavContainer {
-  height: 50px;
+  height: 60px;
   width: 100vw;
   background-color: whitesmoke;
   color: #010101;
@@ -28,6 +36,8 @@ h4 {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
 }
 
 .NavLinks ul {
@@ -36,6 +46,9 @@ h4 {
   list-style-type: none;
   justify-content: space-around;
   align-items: center;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: large;
 }
 
 .NavLinks li {
@@ -61,7 +74,8 @@ h4 {
 
 .Slogan {
   width: 60%;
-  color: #505050;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px black;
 }
 
 .HeroButton {
@@ -72,6 +86,11 @@ h4 {
   border-radius: 10px;
   padding: 1rem;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.HeroButton:hover {
+  background-color: #4b7794;
 }
 
 .artistButton {
@@ -81,22 +100,35 @@ h4 {
   border-radius: 5px;
   padding: 0.5rem;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
+
+.artistButton:hover {
+  background-color: #4b7794;
+}
+
 .artistCards {
   display: flex;
   gap: 2rem;
-  margin-top: 2rem;
   justify-content: center;
 }
 .cardContainer {
   justify-content: center;
+  cursor: pointer;
+}
+.cardContainer:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  box-shadow: 0 0 60px 30px #fff,
+    /* inner white */ 0 0 25px 15px rgb(251, 255, 18),
+    /* middle magenta */ 0 0 35px 20px rgb(119, 128, 38); /* outer cyan */
 }
 
 .cardImage {
   border-radius: 5px;
   justify-content: center;
-  width: 200px;
-  max-height: 300px;
+  width: 300px;
+  max-height: 500px;
 }
 
 .artistName {
@@ -109,11 +141,23 @@ h4 {
 }
 
 .ourArtists {
+  padding-top: 8rem;
   width: 60%;
   text-align: center;
-  color: #505050;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px black;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 .artistSection {
   height: 100vh;
+}
+
+.aboutContainer {
+  padding-top: 4rem;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
 }

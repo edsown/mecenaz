@@ -9,9 +9,9 @@ function ArtistCard() {
 
   console.log(artist);
   return (
-    <div className="artistSection">
+    <div className="artistSection" id="artistSection">
       <div className="ourArtists">
-        <h1>Nossos Artistas</h1>
+        <h1>Artistas em destaque</h1>
       </div>
 
       <div className="artistCards">
